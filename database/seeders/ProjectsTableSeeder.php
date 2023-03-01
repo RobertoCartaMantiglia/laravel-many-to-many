@@ -28,7 +28,6 @@ class ProjectsTableSeeder extends Seeder
             $newProject->description = $faker->realTextBetween(300, 1000);
             $newProject->thumb = 'staticImage.jpg';
             $newProject->author = $faker->name();
-            $newProject->used_technology = $faker->name();
             $newProject->save();
         }
     }

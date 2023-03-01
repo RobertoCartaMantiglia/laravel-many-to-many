@@ -18,7 +18,7 @@ class ProjectController extends Controller
         'description' => 'required|string|min:6',
         'thumb' => 'required|image',
         'author' => 'required|string',
-        'used_technology' => 'required|string|min:2|max:200',
+        // 'used_technology' => 'required|string|min:2|max:200',
         'type_id' => 'required|exists:types,id',
 
     ];
