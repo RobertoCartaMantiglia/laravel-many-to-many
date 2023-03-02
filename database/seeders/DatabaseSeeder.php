@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             TypesTableSeeder::class, //si inserisce prima il seeder riferito alla tabella indipendente
             ProjectsTableSeeder::class,
             TechnologiesTableSeeder::class,
+            ProjectTechnologyTableSeeder::class
         ]);
     }
 }
